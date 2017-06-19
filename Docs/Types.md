@@ -1,0 +1,7 @@
+# Arrays
+
+# Strings
+
+# Objects
+
+# numbers

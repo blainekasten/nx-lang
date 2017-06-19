@@ -1,0 +1,16 @@
+/*
+ * Reacts current owner
+ */
+
+export (def[ReactCurrentOwner]({
+  current null
+}))
+
+
+/*
+ * Equivalent to:
+ *
+ * export default const ReactCurrentOwner = {
+ *  current: null
+ * };
+ */

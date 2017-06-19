@@ -1,0 +1,8 @@
+(ns core/string/uppercase)
+(export upperCase)
+
+(defn upperCase [str] (
+  (def newString "")
+
+  (return (newString (str.toUpperCase)))
+))

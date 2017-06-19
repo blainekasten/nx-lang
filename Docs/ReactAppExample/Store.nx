@@ -1,0 +1,11 @@
+(nx ExampleApp/Store)
+(export store)
+
+(def store {
+  user {
+    id "" 
+  }
+})
+
+// call fetchId on create
+(@[store.user.id] fetchId)

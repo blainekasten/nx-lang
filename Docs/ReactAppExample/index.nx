@@ -1,0 +1,11 @@
+(ns ExampleApp)
+(import render react-dom)
+(import querySelector core/document)
+(import LOADED core/document)
+(import App ExampleApp/App)
+
+// app must start within @LOADED
+(@LOADED (
+  (def node (querySelector "#app"))
+  (render App node)
+))

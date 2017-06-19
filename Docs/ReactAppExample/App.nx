@@ -1,0 +1,25 @@
+(nx ExampleApp/App)
+(import [div span] React/DOM)
+(import Component React/Component)
+(import store ExampleApp/Store)
+(export App)
+
+(def App|Component (
+  (def state {
+    id '@store.user.id
+  })
+
+  (defn updateId [id e] (
+    (store.user.id id)
+    (e.preventDefault)
+  )
+
+  (defn render [] (
+    (return 
+      <div id={this.state.id} onClick={'this.updateId}>
+        UserId:
+        <span>this.state.id</span>
+      </div>
+    )
+  )
+)

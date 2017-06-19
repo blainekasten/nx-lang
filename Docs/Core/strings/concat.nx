@@ -1,0 +1,8 @@
+(ns core/string/concat)
+(export concat)
+
+(defn concat [...strings] (
+  (def newString "")
+
+  (return (+ newString ...strings))
+))

@@ -1,0 +1,9 @@
+(ns core)
+
+# arrays
+(export (import map core/map))
+
+
+# strings
+(export (import concat core/string/concat))
+(export (import upperCase core/string/upperCase))

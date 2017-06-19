@@ -1,0 +1,12 @@
+(ns core/map)
+(export map)
+
+(defn map [arry fn] (
+  (def newArray [])
+
+  (for key in arry (
+    (newArray.push (fn key))
+  ))
+
+  (return newArray)
+))

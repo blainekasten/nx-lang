@@ -1,0 +1,7 @@
+(nx React/Component)
+(import Component:Comp js/React)
+(export Component)
+
+(def Component|Comp (
+  (@this.state (this.forceUpdate))
+))
